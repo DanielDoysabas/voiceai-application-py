@@ -1,4 +1,4 @@
-import pyaudio, wave, sys
+import pyaudio, wave
 from tkinter import *
 import tkinter as tk
 import threading
