@@ -5,6 +5,7 @@
   - [Video](#video)
 - [My process](#my-process)
   - [Built with](#built-with)
+- [Installation]
 - [Author](#author)
 
 ## Overview
@@ -29,6 +30,16 @@
 - Frequency Hertz geting max and min
 - RandomForest Algorithm
 - Prediction Vocal
+
+## Installation
+https://www.python.org/downloads/
+pip install -U scikit-learn
+pip install pandas
+pip install scipy
+pip install pillow
+pip install tk
+pip install PyAudio
+pip install Wave
 
 ## Author
 

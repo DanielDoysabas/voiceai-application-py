@@ -58,7 +58,6 @@ def predict():
     mn = float(1/freqrate) * float(min(data))
     a = float(mx)
     b = float(mn)
-
     # data input replace here
     new_data = [[gender,a,b]]
     # predict
@@ -91,7 +90,6 @@ def stop():
     stream.stop_stream()    # "Stop Audio Recording
     # stream.close()          # "Close Audio Recording
     # p.terminate()           # "Audio System Close
-
     wf = wave.open(WAVE_OUTPUT_FILENAME, 'wb')
     wf.setnchannels(CHANNELS)
     wf.setsampwidth(p.get_sample_size(FORMAT))
